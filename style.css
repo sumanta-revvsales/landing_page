@@ -1,0 +1,240 @@
+@charset 'utf-8';
+  body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    /* font-family:'proxima-nova', sans-serif; */
+    font-weight:600;
+    font-style:normal;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  *{
+    box-sizing: border-box;
+  }
+  .card-text{
+    font-size:12px;
+    font-weight:normal;
+  }
+  .card-desig-text{
+    font-size:17px;
+    font-weight:normal;
+  }
+  .request-btn{
+    background:#ff0078;
+    font-weight: bold;
+    border-radius:5px;
+    border-radius:5px;
+    height:50px;
+    color:white;
+    font-family:'Poppins',sans-serif;
+    letter-spacing:0.1em;
+  }
+  .text-hover{
+      color:black;
+    }
+    .text-hover:hover{
+      color:#ff0078;
+    }
+    .search-input::placeholder{
+      font-size:14px !important;
+    }
+  .request-btn:hover{
+    background:#b20254;
+    opacity: 0.8;
+    transition: 0.5s;
+    color:rgb(7, 255, 139);
+  }
+  .search-input{
+    border:none !important;
+    border:2px solid #ff0078 !important;
+    border-radius:5px;
+    border-radius:5px;
+    height:50px;
+    font-family:'Poppins',sans-serif;
+    border-radius:5px;
+  }
+  .search-input:focus{
+    outline: none;
+    outline: 1px solid #ff0078;
+    outline-color: #ff0078 !important;
+    /* outline: inset; */
+    -webkit-box-shadow: inset 0px 3px 0px -1px rgba(204,198,204,1);
+    -moz-box-shadow: inset 0px 3px 0px -1px rgba(204,198,204,1);
+    box-shadow: inset 0px 3px 0px -1px rgba(204,198,204,1);
+  }
+  .rev-font-weight{
+  font-size:18px;
+  font-weight: 500;
+  font-family:'Poppins',sans-serif;
+}
+.text-weight{
+  font-weight: 500;
+  line-height: 1.8em;
+}
+.card-height{
+  height:50%;
+}
+.section-jest{
+  font-size:20px;
+  font-weight: 600;
+}
+.advisor-img-height{
+  height:100% ;
+}
+.advisor-role-text{
+  font-size:14px
+}
+.text-heading-section{
+  font-size:25px;
+}
+.heading-text{
+  font-size:24px;
+  font-weight: 700;
+}
+.spreadsheet-img{
+  height:40%;
+}
+[alt='deal-desk']{
+  height:30%;
+}
+.text-kpi{
+  font-size:23px
+}
+#card-logo{
+  height:50px;
+  width: 50px;
+}
+@media screen and (max-width:640px) {
+  .card-height{
+    height:content;
+  }
+  .request-btn{
+    border-radius:5px;
+    border-radius:5px;
+  }
+  .search-input{
+    border-radius:5px;
+    border-radius:5px;
+  }
+}
+@media screen and (min-width:992px) {
+  .card-height{
+    height:500px;
+  }
+  #text-renew{
+    font-size:90px !important;
+  }
+  .request-btn{
+    border-top-left-radius:0px !important;
+    border-bottom-left-radius:0px !important;
+    font-size:20px;
+  }
+  .search-input{
+    border-top-right-radius:0px;
+    border-bottom-right-radius:0px;
+  }
+}
+@media screen and (min-width:1200px) {
+  .card-height{
+    height:450px;
+  }
+  .request-btn{
+    border-top-left-radius:0px!important ;
+    border-bottom-left-radius:0px !important;
+    font-size:20px;
+  }
+  #text-renew{
+    font-size:110px !important;
+  }
+}
+@media screen and (min-width:768px){
+  #text-renew{
+    font-size:65px !important;
+  }
+  .request-btn{
+    font-size:11px !important;
+  }
+}
+@media screen and (max-width:450px) {
+  .request-btn{
+    width:100%;
+    font-size:12px !important;
+    border-radius:5px;
+    border-radius:5px;
+  }
+  #text-renew{
+    font-size:50px !important;
+  }
+  #card-logo{
+    margin:-10px 0 0 -10px;
+  }
+  #slay-kpi{
+    font-size:8px;
+  }
+}
+@media screen and (max-width:370px){
+  .request-btn{
+    width:100%;
+    font-size:14px !important;
+    border-radius:5px;
+    border-radius:5px;
+  }
+  .search-input::placeholder{
+    font-size:14px !important;
+  }
+  #text-renew{
+    font-size:50px !important;
+  }
+  .text-kpi{
+    font-size:8px !important;
+  }
+}
+@media screen and (max-width:350px){
+  #text-renew{
+    font-size:50px !important;
+  }
+  .request-btn{
+    width:100%;
+    font-size:10px !important;
+    font-weight:bold;
+    border-radius:5px;
+    border-radius:5px;
+  }
+  .search-input::placeholder{
+    font-size:10px !important;
+    font-weight:bold;
+  }
+  .text-kpi{
+    font-size:14px !important;
+  }
+}
+@media screen and (max-width:320px){
+  #text-renew{
+    font-size:50px !important;
+  }
+  .request-btn{
+    width:100%;
+    font-size:12px !important;
+    font-weight:700;
+    border-radius:5px;
+    border-radius:5px;
+  }
+  .search-input::placeholder{
+    font-size:12px !important;
+    font-weight:900;
+  }
+  .text-kpi{
+    font-size:14px !important;
+  }
+  #card-logo{
+      margin:-10px 0 0 -20px;
+      padding: 0 0 0 5px;;
+  }
+  #slay-kpi{
+    font-size:4px;
+  }
+}
+
+
+
