@@ -27,7 +27,7 @@
     border:1px solid #ff0078;
     border-radius:5px;
     border-radius:5px;
-    height:50px;
+    height:60px;
     color:white;
     font-family:'Poppins',sans-serif;
     letter-spacing:0.1em;
@@ -36,6 +36,7 @@
     background:#b20254;
     transition: 0.5s ;
     color:rgb(7, 255, 139);
+    cursor: pointer;
   }
   .request-btn:focus{
     border:1px solid #ff0078;
@@ -94,7 +95,7 @@
     height:450px;
   }
   .request-btn{
-    font-size:20px;
+    font-size:18px !important;
     font-weight:800;
   }
   #text-renew{
@@ -107,6 +108,13 @@
   #text-renew{
     font-size:90px !important;
   }
+  .request-btn{
+    font-size:17px !important;
+    font-weight:800;
+  }
+  .nav-btn-font-size{
+    font-size:13px !important;
+  }
 }
 @media screen and (max-width:640px) {
   .card-height{
@@ -118,14 +126,20 @@
     font-size:65px !important;
   }
   .request-btn{
-    font-size:11px !important;
+    font-size:12px;
     font-weight:800;
   }
+  .nav-btn-font-size{
+    font-size:12px !important;
+  }
+  /* .nav-btn-font-size{
+
+  } */
 }
 @media screen and (max-width:450px) {
   .request-btn{
     width:100%;
-    font-size:11px !important;
+    font-size:14px !important;
     font-weight:800;
   }
   #text-renew{
@@ -141,7 +155,7 @@
 @media screen and (max-width:370px){
   .request-btn{
     width:100%;
-    font-size:14px !important;
+    font-size:12px !important;
     font-weight:800;
   }
   #text-renew{
@@ -184,6 +198,3 @@
     font-size:4px;
   }
 }
-
-
-
