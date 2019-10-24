@@ -96,7 +96,7 @@
 }
 @media screen and (min-width:1200px) {
   .card-height{
-    height:450px;
+    height:350px;
   }
   .request-btn{
     font-size:18px !important;
