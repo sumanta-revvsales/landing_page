@@ -96,7 +96,8 @@
 }
 @media screen and (min-width:1200px) {
   .card-height{
-    height:350px;
+    height:450px;
+    border:1px solid blue;
   }
   .request-btn{
     font-size:18px !important;
@@ -105,7 +106,7 @@
   #text-renew{
     font-size:110px !important;
   }
-}@media screen and (min-width:992px) {
+}@media screen and (min-width:992px) and (max-width:1200px) {
   .card-height{
     height:515px;
   }
