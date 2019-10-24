@@ -35,7 +35,11 @@
   .request-btn:hover{
     background:#b20254;
     transition: 0.5s ;
+<<<<<<< HEAD
     color:#06d1c6;
+=======
+    color:rgb(7, 255, 139);
+>>>>>>> f388e9816bd55c7ab1a9770b0067f83993920a21
     cursor: pointer;
   }
   .request-btn:focus{
@@ -198,6 +202,3 @@
     font-size:4px;
   }
 }
-
-
-
