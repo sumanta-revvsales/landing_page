@@ -63,6 +63,9 @@
   button[type='submit']{
     height:50px;
   }
+  .text-free-demo{
+    font-size:50px;
+  }
   /* contact form style coding end here */
   .text-hover{
       color:black;
@@ -73,7 +76,6 @@
   .rev-font-weight{
   font-size:18px;
   font-weight: 500;
-  /* font-family:'Poppins',sans-serif; */
 }
 .text-weight{
   font-weight: 500;
