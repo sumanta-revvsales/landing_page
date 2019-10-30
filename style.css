@@ -8,6 +8,7 @@
   }
   html {
     scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased ;
   }
   *{
     box-sizing: border-box;
@@ -20,6 +21,7 @@
     font-size:17px;
     font-weight:normal;
   }
+  /* Request Button style coding start from here */
   .request-btn{
     background:#ff0078;
     border: none;
@@ -29,7 +31,7 @@
     border-radius:5px;
     height:60px;
     color:white;
-    font-family:'Poppins',sans-serif;
+    /* font-family:'Poppins',sans-serif; */
     letter-spacing:0.1em;
   }
   .request-btn:hover{
@@ -42,6 +44,26 @@
     border:1px solid #ff0078;
     outline: none;
   }
+  /* Request Button style coding end from here */
+  /* contact form style coding goes here */
+  .outline-pink:focus{
+    outline:2px solid #f50057;
+    outline-color:#f50057!important;
+    -webkit-box-shadow:-1px 1px 6px -1px rgba(245,0,87,.54);
+    -moz-box-shadow:-1px 1px 6px -1px rgba(245,0,87,.54);
+    box-shadow:-1px 1px 6px -1px rgba(245,0,87,.54)
+  }
+  input[type='text']{
+    height: 45px;
+  }
+  .heding-contact-form{
+    font-weight: 700;
+    font-size: 50px;
+  }
+  button[type='submit']{
+    height:50px;
+  }
+  /* contact form style coding end here */
   .text-hover{
       color:black;
   }
@@ -51,7 +73,7 @@
   .rev-font-weight{
   font-size:18px;
   font-weight: 500;
-  font-family:'Poppins',sans-serif;
+  /* font-family:'Poppins',sans-serif; */
 }
 .text-weight{
   font-weight: 500;
